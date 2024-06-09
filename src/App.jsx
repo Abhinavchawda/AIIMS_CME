@@ -17,28 +17,23 @@ function App() {
     <div id='main' className="main overflow-hidden min-h-screen bg-[rgb(245,245,247)] text-white">
       <Navbar />
       <div className='image'>
-
-        <div className='w-full mx-auto h-[90vh] md:h-screen bg-fixed bg-cover bg-no-repeat bg-[url(./assets/main_image.jpg)]'><div className='flex flex-col justify-center items-center py-10 mx-5 md:py-60'>
-          <div className='text-2xl font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>Update on Acute Kidney Injury and CRRT</div>
-          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>State Level CME on management of AKI and CRRT hands on</div>
-          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>29th June 2024</div>
-          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'><b>Organized by: </b>Department of Nephrology AIIMS, Bhopal</div>
-          <button className='bg-white text-blue-800 shadow-xl text-5xl font-bold rounded-2xl my-10 md:my-5 py-5 px-5 animate-pulse'><a href='https://google.com'>Register</a></button>
+        <div className='w-full mx-auto h-[110vh] sm:h-[100vh] md:min-h-[100vh] bg-local bg-cover bg-center bg-no-repeat bg-[url(./assets/main_image.jpg)]'><div className='flex flex-col justify-center items-center py-10 mx-5 md:py-30'>
+          <div className='text-2xl font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:p-4 md:text-3xl px-3 py-1 font-customFont'>Update on Acute Kidney Injury and CRRT</div>
+          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:p-4 md:text-3xl px-3 py-1 font-customFont'>State Level CME on Management of AKI and CRRT hands on</div>
+          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:p-4 md:text-3xl px-3 py-1 font-customFont'>Date of the Event: 29th June 2024</div>
+          <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:p-4 md:text-3xl px-3 py-1 font-customFont'><b>Organized by: </b>Department of Nephrology AIIMS, Bhopal</div>
+          <button className='bg-white text-blue-800 shadow-xl text-5xl font-bold rounded-2xl my-10 md:my-5 py-5 px-5 animate-pulse'><a href='https://docs.google.com/forms/d/e/1FAIpQLSfLKfCzl8XbF2mJSCyAljm_7FxUV8pSZ-9YEpQlMXlmBqhRiQ/viewform?usp=sharing'>Register</a></button>
         </div>
         </div>
 
-        <div id='about' className='about my-10 pb-28 flex flex-col items-center justify-center min-h-[50vh] text-black border-b border-black'>
+        <div id='about' className='about my-10 pt-10 pb-28 flex flex-col items-center justify-center min-h-[50vh] text-black border-b border-black'>
           <div className='text-4xl my-10 font-bold'><span className='text-black'>About the</span><span className='text-blue-700'> Event</span></div>
           <div className='w-[90vw] md:w-[70vw] mx-auto text-pretty bg-[rgb(255,255,255)] shadow-xl shadow-slate-300 hover:shadow-slate-400 rounded-3xl p-7'>
             <div className='bg-slate-100 scale-[98.5%] hover:scale-100 text-center rounded-2xl shadow-lg md:mb-5 mb-10 px-4 py-4'>
               <span className='text-xl flex justify-center font-bold text-blue-500'>About the CME</span>
-              <br></br>Acute kidney Injury is a very common disorder in ICU and non ICU setting, at primary, secondary or tertiary care provider level. It could be community acquired or hospital acquired. Sepsis is one of leading cause of AKI. There are lot of updates in management and prevention of AKI i.e. Best type of fluid for resuscitation, (Balanced solutions versus non balanced) volume for resuscitation (Is high volume deleterious), modalities for renal replacement i.e. CRRT /SLED/Hemodialysis etc., timing of dialysis initiation (Early or Late). <br></br>
+              <br></br>Acute kidney Injury is a very common disorder in ICU and non ICU setting, at primary, secondary or tertiary care provider level. There are lot of updates in management and prevention of AKI i.e. Best type of fluid for resuscitation, volume for resuscitation, modalities for renal replacement i.e. CRRT /SLED/Hemodialysis etc., timing of dialysis initiation. <br></br>
               <br></br>
               CRRT has a special space in management of AKI in ICU settings, regional citrate anticoagulation CRRT is especially useful for patients with coagulation disorders and thrombocytopenia, also it has role as a organ support. <br></br>
-              <br></br>
-              CME and workshop focuses on learning CRRT basics, its indications, its modalities, CVVHD, CVVHDF, its dose, anticoagulation and practical problems in running CRRT. <br></br>
-              <br></br>
-              CME will also provide updates on burning topics of AKI mentioned above.
             </div>
 
             <div className='bg-slate-100 scale-[98.5%] hover:scale-100 text-center rounded-2xl shadow-lg md:my-5 my-10 p-4'>
