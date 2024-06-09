@@ -43,7 +43,7 @@ const Navbar = () => {
                     <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#about'>About</a></li>
                     <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#speakers'>Speakers</a></li>
                     <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#contact'>Contact</a></li>
-                    <li className='rounded-xl text-xl text-black font-semibold px-3 py-2 bg-white shadow-md shadow-slate-800'><a href='http://google.com'>Register</a></li>
+                    <li className='rounded-xl text-xl text-black font-semibold px-3 py-2 bg-white shadow-md shadow-slate-800'><a href='https://docs.google.com/forms/d/e/1FAIpQLSfLKfCzl8XbF2mJSCyAljm_7FxUV8pSZ-9YEpQlMXlmBqhRiQ/viewform?usp=sharing'>Register</a></li>
                 </ul>
             </div>
         </div>
