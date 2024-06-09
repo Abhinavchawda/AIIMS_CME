@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <div className='image'>
 
-        <div className='w-full mx-auto h-[90vh] md:h-screen bg-fixed bg-cover bg-no-repeat bg-[url(https://pbs.twimg.com/profile_images/1398260182602313729/Dak1ToAy_400x400.jpg)]'><div className='flex flex-col justify-center items-center py-10 mx-5 md:py-60'>
+        <div className='w-full mx-auto h-[90vh] md:h-screen bg-fixed bg-cover bg-no-repeat bg-[url(./assets/main_image.jpg)]'><div className='flex flex-col justify-center items-center py-10 mx-5 md:py-60'>
           <div className='text-2xl font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>Update on Acute Kidney Injury and CRRT</div>
           <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>State Level CME on management of AKI and CRRT hands on</div>
           <div className='text-2xl text-pretty font-bold mt-5 text-white rounded-xl bg-[rgb(0,30,20,0.7)] md:bg-[rgb(0,30,20,0.2)] md:p-4 md:text-3xl md:text-[rgb(0,30,20)] px-3 py-1 font-customFont'>29th June 2024</div>
