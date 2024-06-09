@@ -21,28 +21,29 @@ const Navbar = () => {
     }
     return (
         <div className='bg-black'>
-            <div className='flex items-center justify-between h-20 bg-[rgb(245,245,247)]'>
+            <div className='flex items-center justify-between h-20 bg-[rgb(20,20,20)]'>
                 <div className='text-[rgb(17,42,42)] font-bold text-3xl mx-5'>
                     <img src={aiims_logo} height={40} width={65}></img>
                 </div>
 
                 <div className=''>
-                    <img ref={icon_ref} className='px-8 md:hidden text-black' src={bar_logo} onClick={showMenu} alt='menu'></img>
+                    <img ref={icon_ref} className='px-8 invert md:hidden text-black' src={bar_logo} onClick={showMenu} alt='menu'></img>
                     <div>
-                        <ul ref={btn_ref} className='invisible md:hidden bg-slate-200 text-black rounded-2xl p-5 px-8 absolute right-5 top-24 text-md'>
-                            <li className='rounded-xl font-semibold bg-slate-300 m-2 flex justify-center py-1 px-2'><a href='#main'><img src={home_logo} alt='Home'></img></a></li>
-                            <li className='rounded-xl font-semibold bg-slate-300 m-2 text-center py-1 px-2'><a href='#about'>About</a></li>
-                            <li className='rounded-xl font-semibold bg-slate-300 m-2 text-center py-1 px-2'><a href='#speakers'>Speakers</a></li>
-                            <li className='rounded-xl font-semibold bg-slate-300 m-2 text-center py-1 px-2'><a href='#contact'>Contact</a></li>
+                        <ul ref={btn_ref} className='invisible md:hidden bg-black text-white rounded-2xl p-5 px-8 absolute right-5 top-24 text-md'>
+                            <li className='rounded-xl font-semibold bg-[rgb(36,36,36)] m-2 flex justify-center py-1 px-2'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
+                            <li className='rounded-xl font-semibold bg-[rgb(36,36,36)] m-2 text-center py-1 px-2'><a href='#about'>About</a></li>
+                            <li className='rounded-xl font-semibold bg-[rgb(36,36,36)] m-2 text-center py-1 px-2'><a href='#speakers'>Speakers</a></li>
+                            <li className='rounded-xl font-semibold bg-[rgb(36,36,36)] m-2 text-center py-1 px-2'><a href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <ul className='hidden md:flex items-center gap-10 m-0 p-5'>
-                    <li className='rounded-xl text-black font-semibold px-3 py-1 bg-[rgb(255,255,255)] shadow-md shadow-slate-500 hover:shadow-orange-500 hover:bg-white hover:text-blue-900 hover:border-orange-500'><a href='#main'><img src={home_logo} alt='Home'></img></a></li>
-                    <li className='rounded-xl text-black font-semibold px-3 py-1 bg-[rgb(255,255,255)] shadow-md shadow-slate-500 hover:shadow-orange-500 hover:bg-white hover:text-blue-900 hover:border-orange-500'><a href='#about'>About</a></li>
-                    <li className='rounded-xl text-black font-semibold px-3 py-1 bg-[rgb(255,255,255)] shadow-md shadow-slate-500 hover:shadow-orange-500 hover:bg-white hover:text-blue-900 hover:border-orange-500'><a href='#speakers'>Speakers</a></li>
-                    <li className='rounded-xl text-black font-semibold px-3 py-1 bg-[rgb(255,255,255)] shadow-md shadow-slate-500 hover:shadow-orange-500 hover:bg-white hover:text-blue-900 hover:border-orange-500'><a href='#contact'>Contact</a></li>
+                    <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
+                    <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#about'>About</a></li>
+                    <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#speakers'>Speakers</a></li>
+                    <li className='rounded-xl text-white font-semibold px-3 py-1 bg-[rgb(30,30,32)] shadow-md shadow-slate-800  hover:text-blue-500'><a href='#contact'>Contact</a></li>
+                    <li className='rounded-xl text-xl text-black font-semibold px-3 py-2 bg-white shadow-md shadow-slate-800'><a href='http://google.com'>Register</a></li>
                 </ul>
             </div>
         </div>
