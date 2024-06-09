@@ -45,26 +45,6 @@ function App() {
               <span className='text-xl flex justify-center font-bold text-blue-500'>Who should attend</span><br></br>
               Acute kidney Injury is a very common disorder in ICU and non ICU setting, at primary, secondary or tertiary care provider level. CME and workshop will suit all medicine and surgical practitioners, intensivist and non-intensivist, post graduate students and senior residents of all medical and surgical streams and branches. Dialysis technicians can also register for CRRT workshop.
             </div>
-
-            <div className='bg-slate-100 scale-[98.5%] hover:scale-100 rounded-2xl shadow-lg md:my-5 my-10 p-4'>
-              <span className='text-xl flex justify-center gap-3 items-center font-bold text-blue-600'>Organising secretary</span>
-              <br></br>
-              <div className='text-center'>
-                <b><big>Dr. Mahendra Atlani</big></b><br></br>
-                Associate Professor-Nephrology, AIIMS, Bhopal<br></br>
-                <b>Organized by</b><br></br>
-                Department of Nephrology
-                AIIMS, Bhopal
-              </div>
-            </div>
-
-            <div className='bg-slate-100 scale-[98.5%] hover:scale-100 text-center rounded-2xl shadow-lg md:mt-5 mt-10 p-4'>
-              <span className='text-xl flex justify-center gap-3 font-bold text-blue-600'>
-                <img src={map_logo}></img>Venue
-              </span><br></br>
-              Workshop-Dialysis unit 3rd floor Hospital building, AIIMS, Bhopal<br></br>
-              <br></br>CME- Lecture theatre - 4, 2nd floor, Sardar vallabh bhai patel building (Medical college building) AIIMS, Bhopal.
-            </div>
           </div>
         </div>
 
@@ -77,6 +57,32 @@ function App() {
             post2="President Indian society of Nephrology" image={Dr_Shyam_img} img_width={300} />
             <Speaker_img name="Dr. Sandeep Saxena" post="Senior consultant- Nephrology 
             Apollo, Indore" image={Dr_Sandeep_img} img_width={300} />
+          </div>
+        </div>
+
+        <div className=' border-b border-black'>
+          <div className='w-[90vw] md:w-[70vw] my-20 mx-auto text-pretty bg-[rgb(255,255,255)] shadow-xl shadow-slate-300 hover:shadow-slate-400 rounded-3xl p-7'>
+            <div id='about' className='about my-10 flex flex-col items-center justify-center min-h-[50vh] text-black'>
+              <div className='bg-slate-100 scale-[98.5%] hover:scale-100 rounded-2xl shadow-lg md:my-5 my-10 p-4'>
+                <span className='text-xl flex justify-center gap-3 items-center font-bold text-blue-600'>Organising secretary</span>
+                <br></br>
+                <div className='text-center'>
+                  <b><big>Dr. Mahendra Atlani</big></b><br></br>
+                  Associate Professor-Nephrology, AIIMS, Bhopal<br></br>
+                  <b>Organized by</b><br></br>
+                  Department of Nephrology
+                  AIIMS, Bhopal
+                </div>
+              </div>
+
+              <div className='bg-slate-100 scale-[98.5%] hover:scale-100 text-center rounded-2xl shadow-lg md:my-5 mt-10 p-4'>
+                <span className='text-xl flex justify-center gap-3 font-bold text-blue-600'>
+                  <img src={map_logo}></img>Venue
+                </span><br></br>
+                Workshop-Dialysis unit 3rd floor Hospital building, AIIMS, Bhopal<br></br>
+                <br></br>CME- Lecture theatre - 4, 2nd floor, Sardar vallabh bhai patel building (Medical college building) AIIMS, Bhopal.
+              </div>
+            </div>
           </div>
         </div>
         
