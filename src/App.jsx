@@ -54,9 +54,7 @@ function App() {
           <div className='flex flex-col md:flex-row md:gap-32 items-center justify-center md:flex-wrap md:my-10 w-[80vw] md:w-[90vw] mx-auto'>
             <Speaker_img name="Dr. Shyam Bihari Bansal" post="Indian society of Nephrology Senior Director and head Nephrology Medanta (Medicity Gurgaon)"
             <Speaker_img name="Dr. Narayan Prasad" post="Prof and HOD Nephrology SGPGI Lucknow" post2="Deputy Chair South Asia Regional Board International Society of Nephrology" post3="Former Honourable Secretary Indian Society of Nephrology" image={Dr_Narayan_img} img_width={285} />
-            post2="President Indian society of Nephrology" image={Dr_Shyam_img} img_width={300} />
-            <Speaker_img name="Dr. Sandeep Saxena" post="Senior consultant- Nephrology 
-            Apollo, Indore" image={Dr_Sandeep_img} img_width={300} />
+            <Speaker_img name="Dr. Sandeep Saxena" post="Senior consultant- Nephrology Apollo, Indore" image={Dr_Sandeep_img} img_width={300} />
           </div>
         </div>
 
